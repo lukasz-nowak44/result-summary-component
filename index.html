@@ -25,19 +25,20 @@
         <div class="result">
 
           <header>
-            <h1 class="left-title">Your Result</h1>
+            <h1 class="result__title">Your Result</h1>
           </header>
 
           <section class="points">
-            <h1>76</h1>
-            <p>of 100</p>
+            <p class="result__score">
+              <span class="result__score-value">76</span>
+              <span class="result__score-max">of 100</span>
+            </p>
           </section>
 
           <section class="evaluation-text">
-            <h1>Great</h1>
-            <p>You scored higher than 65% of the people who have taken these tests.
-            </p>
-          </section>
+            <h2 class="result__verdict">Great</h2>
+            <p class="result__text">You scored higher than 65% of the people who have taken these tests.</p>
+          </section>   
 
         </div>
 
@@ -48,59 +49,37 @@
         <div class="summary">
 
           <header>
-            <h1 class="right-title">Summary</h1>
+            <h2 class="summary__title">Summary</h2>
           </header>
 
           <section>
 
-            <div class="reaction parameters">
-              <figure>
-                <img src="./assets/images/icon-reaction.svg" alt="thunder" />
-              </figure>
-
-              <div class="adjustment-box">
-                <p>Reaction</p>
-                <span>80 <span>/ 100</span></span>
-              </div>
-            </div>
-
-            <div class="memory parameters">
-              <figure>
-                <img src="./assets/images/icon-memory.svg" alt="brain" />
-              </figure>
-
-              <div class="adjustment-box">
-                <p>Memory</p>
-                <span>92 <span>/ 100</span></span>
-              </div>
-            </div>
-
-            <div class="verbal parameters">
-              <figure>
-                <img src="./assets/images/icon-verbal.svg" alt="chat cloud" />
-              </figure>
-
-              <div class="adjustment-box">
-                <p>Verbal</p>
-                <span>61 <span>/ 100</span></span>
-              </div>
-            </div>
-
-            <div class="visual parameters">
-              <figure><img src="./assets/images/icon-visual.svg" alt="eye" />
-              </figure>
-
-              <div class="adjustment-box">
-                <p>Visual</p>
-                <span>73 <span>/ 100</span></span>
-              </div>
-            </div>
+            <ul class="summary__list">
+              <li class="parameter parameter--reaction">
+                  <img src="./assets/images/icon-reaction.svg" alt="" aria-hidden="true" class="parameter__icon" />
+                  <span class="parameter__name">Reaction</span>
+                  <span class="parameter__score">80 <span class="parameter__max">/ 100</span></span>
+              </li>
+              <li class="parameter parameter--memory">
+                  <img src="./assets/images/icon-memory.svg" alt="" aria-hidden="true" class="parameter__icon"  />
+                  <span class="parameter__name">Memory</span>
+                  <span class="parameter__score">92 <span class="parameter__max">/ 100</span></span>
+              </li>
+              <li class="parameter parameter--verbal">
+                  <img src="./assets/images/icon-verbal.svg" alt="" aria-hidden="true" class="parameter__icon"  />
+                  <span class="parameter__name">Verbal</span>
+                  <span class="parameter__score">61 <span class="parameter__max">/ 100</span></span>
+              </li>
+              <li class="parameter parameter--visual">
+                  <img src="./assets/images/icon-visual.svg" alt="" aria-hidden="true" class="parameter__icon"  />
+                  <span class="parameter__name">Visual</span>
+                  <span class="parameter__score">73 <span class="parameter__max">/ 100</span></span>
+              </li>
+            </ul>
 
           </section>
 
-          <a href="#"><div class="continue">
-            <p>Continue</p>
-          </div></a>
+          <button type="button" class="btn">Continue</button>
 
         </div>
 
