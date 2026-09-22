@@ -42,10 +42,10 @@ Users should be able to:
 
 ### What I learned
 
-I could practise how I can use HTML and CSS to project webpage. The information from IT course I tested. In this particular project I found out in what way I can make the color's gradient of the background and the methods of creating respositive pages. Moreover, I rebuilt this project based of suggestions from report of my previous project (https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj):
+I could practise how I can use HTML and CSS to project webpage. The information from IT course I tested. In this particular project I found out in what way I can make the color's gradient of the background and the methods of creating resposive pages. Moreover, I rebuilt this project based of suggestions from report of my previous project (https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj):
 - the 'outline:none' was removed from focus states
 - margins with minuses was deleted
-- the width of main was changed to percent, the box sizing was added, the additional divs were added into parameters class; all these things improved the respositiveness
+- the width of main was changed to percent, the box sizing was added, the additional divs were added into parameters class; all these things improved the resposiveness
 
 ### Continued development
 
