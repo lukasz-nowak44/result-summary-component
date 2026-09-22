@@ -67,9 +67,16 @@ main {
   border-radius: 50%;
 }
 
+.result__score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 p.result__score {
-  display: grid;
-  grid-template-columns: 1fr;
   color: white;
 }
 
