@@ -56,7 +56,7 @@ main {
 .result__title {
   color: hsl(241, 100%, 89%);
   font-weight: 500;
-  padding: 20px;
+  padding: 1.25em;
   margin-top: 0;
 }
 
@@ -86,21 +86,21 @@ p.result__score {
 .result__verdict {
   margin: 0;
   color: white;
-  padding-top: 20px;
+  padding-top: 1.25em;
 } 
 
 .result__text {
-  padding: 0 50px;
-  padding-bottom: 20px;
+  padding: 0 2.2em;
+  padding-bottom: 1.2em;
 }
 
 .summary {
   display: flex;
   flex-direction: column; 
-  gap: 20px;
+  gap: 1.1rem;
   height: 100%;
   border-radius: 0 30px 30px 0;
-  padding: 0 40px;
+  padding: 0 2rem;
 }
 
 .summary__title {
@@ -164,7 +164,7 @@ p.result__score {
   font: inherit;
   font-weight: 700;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 
 .btn:hover,
